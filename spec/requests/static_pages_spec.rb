@@ -47,4 +47,6 @@ describe "Static pages" do
     click_link "sample app"
     expect(page).to have_selector 'h1', text: 'Sample App'
   end
+
+  
 end
